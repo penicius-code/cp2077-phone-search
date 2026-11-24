@@ -1,7 +1,7 @@
 # Phone Search
 
 Search every phone contact and message thread from a Cyber Engine Tweaks window, then open the thread or place the call, for Cyberpunk 2077. Single-player only.
-Version 1.0.1 | For game version 2.5 | Status: 1.0.1 not run in game yet; 1.0.0 was used in game (a problem seen there led to 1.0.1), with no written test result
+Version 1.0.1 | For game version 2.5 | Status: 1.0.1 in use in my game and working; 1.0.0 was used in game (a problem seen there led to 1.0.1), with no written test result
 
 > This is an unofficial fan work and is not approved/endorsed by CD PROJEKT RED. No game files are included.
 
@@ -74,7 +74,7 @@ Hotkey in CET's Bindings tab, unbound by default: "Show / hide window". The wind
 | Version | Game | Result |
 |---|---|---|
 | 1.0.0 | 2.5 | Compiles (0 errors; the warnings are the same as without the mod). Used in game: a read contact from a Holo-based mod was listed without Text or Call buttons, which led to 1.0.1. No written test result. |
-| 1.0.1 | 2.5 | Compiles (0 errors). Not run in game. |
+| 1.0.1 | 2.5 | Compiles (0 errors). In use in the author's game and working (author's statement, 2026-11-24). No written test record. |
 | Mock test | | 39 of 39 checks pass with LuaJIT on the published `init.lua` (unchanged since 1.0.0). It covers search, multi-word search, Enter, the queue on overlay close, thread pick, Call, Cancel, the blocked-phone warning, an unknown result, filters, sort, settings, and no player, no redscript system or a failing snapshot. It runs in CI. |
 
 ## Compatibility

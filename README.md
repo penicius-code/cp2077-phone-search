@@ -3,6 +3,8 @@
 Search every phone contact and message thread from a Cyber Engine Tweaks window, then open the thread or place the call, for Cyberpunk 2077. Single-player only.
 Version 1.0.1 | For game version 2.5 | Status: 1.0.1 in use in my game and working; 1.0.0 was used in game (a problem seen there led to 1.0.1), with no written test result
 
+**Download:** [latest release](https://github.com/penicius-code/cp2077-phone-search/releases/latest) (zip; install steps below)
+
 > This is an unofficial fan work and is not approved/endorsed by CD PROJEKT RED. No game files are included.
 
 <img src="docs/media/phone-search.png" width="480" alt="The Phone Search window with a name search box, filters for callable, messages and unread contacts, sort options and a list of contacts with Text and Call buttons and unread counts">
@@ -48,7 +50,7 @@ No other mod is needed. Requirements are not bundled.
 ## Install
 
 1. Install the requirements above.
-2. Copy the contents of `package/` into the game folder, so that `r6\scripts\CyberslopPhoneSearch\CyberslopPhoneSearch.reds` exists.
+2. Download the zip from the [latest release](https://github.com/penicius-code/cp2077-phone-search/releases/latest) (the same files as `package/` in this repository) and extract it into the game folder, so that `r6\scripts\CyberslopPhoneSearch\CyberslopPhoneSearch.reds` exists.
 3. Start the game, load a save and open the CET overlay. The "Phone Search" window shows with the cursor in the search box. If the redscript part is missing or did not compile, the window says so.
 
 ## Uninstall / roll back
